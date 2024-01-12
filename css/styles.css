@@ -6,8 +6,6 @@ body {
     font-size: 16px;
     color: #434455;
     letter-spacing: normal;
-    width: 90rem;
-    height: 216.75rem;
 }
 
 img {
@@ -173,6 +171,7 @@ p {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-title {                                                     
@@ -416,7 +415,7 @@ p {
     overflow: hidden;
 }
 
-.portfolio-img-container:hover .portfolio-img-description {
+.portfolio-list-item:hover .portfolio-img-description {
     transform: translateY(0);
 }
 
