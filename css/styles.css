@@ -445,7 +445,7 @@ p {
 
 .footer-container {
     display: flex;
-    align-items: baseline;
+    justify-content: baseline;
     line-height: 1.5;
 }
 
@@ -500,6 +500,7 @@ p {
 .footer-icons {
     display: flex;
     gap: 16px;
+    margin-right: ;
 }
 
 .footer-icon-item {
@@ -525,6 +526,62 @@ p {
 .footer-social-icon {
     fill: #f4f4fd;
 }
+
+.footer-form-container {
+    display: inline-block;
+}
+
+
+.footer-form-title {
+    width: 75px;
+    height: 24px;
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-form {}
+
+.footer-form-input {
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.footer-form-btn {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: #FFF;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 8px 24px;
+    max-width: 165px;
+    max-height: 40px;
+    margin-left: 24px
+}
+
+.footer-form-icon {}
+
+
 /** ===========================FOOTER==END============================== */
 /** ============================MODAL=================================== */
 .backdrop {
@@ -659,12 +716,6 @@ margin-bottom: 8px;
     border-color: #4D5AE5;
 }
 
-.modal-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .modal-hero-btn {
     color: #FFF;
     cursor: pointer;
@@ -683,8 +734,26 @@ margin-bottom: 8px;
     padding: 16px 32px;
     max-width: 169px;
     max-height: 56px;
+    display: block;
+    margin: 0 auto;
 }
 
 .modal-hero-btn:hover,
 .modal-hero-btn:focus {
-    background: #404BBF;
+    background: #404BBF;}
+
+.modal-check-box {
+
+}
+
+.visually-hidden {
+
+}
+
+.modal-check-text {
+
+}
+
+.modal-check-icon {
+    
+}
