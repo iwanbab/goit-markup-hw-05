@@ -648,8 +648,8 @@ margin-bottom: 8px;
     font-weight: 400;
     line-height: 1.16;
     letter-spacing: 0.04em;
-        padding-left: 16px;
-            padding-top: 8px;
+    padding-left: 16px;
+    padding-top: 8px;
 }
 
 .modal-text::placeholder {
@@ -658,3 +658,33 @@ margin-bottom: 8px;
 .modal-text:focus {
     border-color: #4D5AE5;
 }
+
+.modal-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-hero-btn {
+    color: #FFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    gap: 0.625rem;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 16px 32px;
+    max-width: 169px;
+    max-height: 56px;
+}
+
+.modal-hero-btn:hover,
+.modal-hero-btn:focus {
+    background: #404BBF;
