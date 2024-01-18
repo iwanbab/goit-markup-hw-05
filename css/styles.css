@@ -445,7 +445,7 @@ p {
 
 .footer-container {
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     line-height: 1.5;
 }
 
@@ -484,7 +484,8 @@ p {
     letter-spacing: 0.02em;
     width: 16.5rem;
 }  
-.footer-icons-container { 
+.footer-icons-container {
+    margin-right: 80px;
 }
 
 .footer-icons-text {
@@ -500,7 +501,6 @@ p {
 .footer-icons {
     display: flex;
     gap: 16px;
-    margin-right: ;
 }
 
 .footer-icon-item {
@@ -528,9 +528,7 @@ p {
 }
 
 .footer-form-container {
-    display: inline-block;
 }
-
 
 .footer-form-title {
     width: 75px;
@@ -543,7 +541,10 @@ p {
     margin-bottom: 16px;
 }
 
-.footer-form {}
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
 
 .footer-form-input {
     width: 264px;
@@ -553,15 +554,28 @@ p {
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding-left: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    justify-content: center;
+    background: transparent;
+    color: #FFF;
+    line-height: 2;
+    letter-spacing: 0.04em;
+
+}
+
+.footer-form-input::placeholder {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .footer-form-btn {
-    display: inline-flex;
     padding: 8px 24px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 16px;
     border-radius: 4px;
     background-color: #4D5AE5;
@@ -576,10 +590,16 @@ p {
     padding: 8px 24px;
     max-width: 165px;
     max-height: 40px;
-    margin-left: 24px
 }
 
-.footer-form-icon {}
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+    background: #404BBF;
+}
+
+.footer-form-icon {
+    fill: #FFF;
+}
 
 
 /** ===========================FOOTER==END============================== */
@@ -734,7 +754,6 @@ margin-bottom: 8px;
     padding: 16px 32px;
     max-width: 169px;
     max-height: 56px;
-    display: block;
     margin: 0 auto;
 }
 
@@ -743,10 +762,6 @@ margin-bottom: 8px;
     background: #404BBF;}
 
 .modal-check-box {
-
-}
-
-.visually-hidden {
 
 }
 
