@@ -551,19 +551,20 @@ p {
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
-    border: 1px solid #FFF;
+    border: 1px solid #FFFFFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding-left: 16px;
     justify-content: center;
     background: transparent;
-    color: #FFF;
+    font-size: 12px;
+    color: #FFFFFF;
     line-height: 2;
     letter-spacing: 0.04em;
 
 }
 
 .footer-form-input::placeholder {
-    color: #FFF;
+    color: #FFFFFF;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
@@ -572,6 +573,7 @@ p {
 
 .footer-form-btn {
     padding: 8px 24px;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -588,7 +590,7 @@ p {
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 8px 24px;
-    max-width: 165px;
+    min-width: 165px;
     max-height: 40px;
 }
 
@@ -599,6 +601,7 @@ p {
 
 .footer-form-icon {
     fill: #FFF;
+    margin-left: 16px;
 }
 
 
