@@ -692,6 +692,10 @@ p {
 }
 
 .modal-field {
+    margin-bottom: 16px;
+}
+
+.home-work-div {
     margin-bottom: 8px;
 }
 
